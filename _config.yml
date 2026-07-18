@@ -1,0 +1,9 @@
+title: less is a bore
+description: ""
+url: "https://shin-gwang.github.io"
+baseurl: "/blog"
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# 홈 피드에 글 전문이 나오므로 별도 페이지네이션 없이 시작
