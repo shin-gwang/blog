@@ -89,3 +89,15 @@ a:visited { color: var(--link); }
   color: var(--muted);
 }
 .site-footer a:hover { color: var(--link); }
+
+/* image x3 strip */
+.x3 {
+  display: flex;
+  margin: 24px 0;
+}
+.x3 img {
+  width: 33.3333%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
