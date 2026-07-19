@@ -9,15 +9,6 @@
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
   
-<script>
-  document.querySelectorAll('.x3').forEach(function (el) {
-    var img = el.querySelector('img');
-    if (!img) return;
-    el.appendChild(img.cloneNode());
-    el.appendChild(img.cloneNode());
-  }); 
-</script>
-  
 <body>
   <header class="site-header">
     <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -30,5 +21,15 @@
   <footer class="site-footer">
     <a href="{{ '/' | relative_url }}">↑ {{ site.title }}</a>
   </footer>
+  
+  <script>
+  document.querySelectorAll('.x3').forEach(function (el) {
+    var img = el.querySelector('img');
+    if (!img) return;
+    el.appendChild(img.cloneNode());
+    el.appendChild(img.cloneNode());
+  });
+</script>
+  
 </body>
 </html>
